@@ -1,15 +1,16 @@
-/* Основные стили */
+/* Основной стиль страницы */
 body {
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #FFE5D4; /* Нежно-персиковый фон */
+    color: #333;
 }
 
 /* Шапка */
 .header {
-    background-color: #333;
-    color: white;
+    background-color: #FFCCB6; /* Немного темнее персиковый */
+    color: #333;
     padding: 20px;
     text-align: center;
 }
@@ -19,30 +20,40 @@ body {
     font-size: 2em;
 }
 
-/* Блоки страницы */
-.about, .services {
-    margin: 20px;
-    padding: 20px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.header p {
+    margin: 5px 0;
 }
 
-/* Стиль для списков */
+/* Стили секций */
+section {
+    margin: 20px;
+    padding: 15px;
+    background-color: #FFF5EE; /* Ещё светлее персиковый */
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Заголовки секций */
+section h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+/* Список услуг */
 .services ul {
-    list-style-type: none;
+    list-style-type: disc;
+    margin-left: 20px;
     padding: 0;
 }
 
 .services li {
     margin: 10px 0;
-    font-size: 1.1em;
 }
 
 /* Футер */
 .footer {
-    background-color: #333;
-    color: white;
+    background-color: #FFCCB6;
+    color: #333;
     text-align: center;
     padding: 10px;
 }
