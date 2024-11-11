@@ -54,3 +54,16 @@ body {
     display: block;
     margin: 20px auto;
 }
+/* Стили для мобильных устройств */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 1.5em; /* Уменьшаем размер заголовка */
+    }
+    .profile-photo {
+        max-width: 100px; /* Уменьшаем размер фото */
+    }
+    section {
+        padding: 10px; /* Меньше отступов на мобильных устройствах */
+    }
+}
+
