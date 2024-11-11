@@ -46,13 +46,15 @@ body {
     text-align: center;
     padding: 10px;
 }
+/* Стиль для фотографии с изменением размера и формы */
 .profile-photo {
-    max-width: 120px; /* Устанавливаем максимальную ширину */
+    max-width: 300px; /* Увеличиваем максимальную ширину */
     width: 100%; /* Подстраиваем под экран */
     height: auto; /* Сохраняем пропорции */
-    border-radius: 50%;
+    border-radius: 0; /* Убираем округление углов */
     display: block;
     margin: 20px auto;
+
 }
 /* Стили для мобильных устройств */
 @media (max-width: 768px) {
